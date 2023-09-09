@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  body {
+    background-color: rgb(166, 166, 166);
+    scroll-behavior: smooth;
+  }
+
+  .navbar {
+    background-color: #0099FF;
+  }
+  
+  .hero {
+    min-height: 100vh;
+    position: relative;
+    padding-top: 3.5rem;
+  }
+
+  .table-nilai {
+    padding-top: 3.5rem;
+    min-height: 100vh;
+  }
+
+  .judul-text {
+    margin-top: 3rem;
+  }
+
+  .hero-text {
+    z-index: 999;
+  }
+  
+  .border-first {
+    border: 1px solid rgb(205, 205, 205);
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+    width: 460px;
+    z-index: 999;
+  }
+  
+  .tab-bord {
+    padding: 1rem 5rem 0 5rem;
+    border-radius: 10px;
+    background-color: white;
+    min-width: 50%;
+  }
+  
+  .table {
+    border: 2px solid black;
+    background-color: #0099FF;
+  }
+  
+  svg {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .button-wrap .errorMsg{
+    font-size: 15px;
+    color: red;
+    display: none;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    box-sizing: border-box;
+  }
